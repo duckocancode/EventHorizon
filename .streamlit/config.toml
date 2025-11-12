@@ -1,0 +1,7 @@
+[theme]
+# from your CSS vars
+primaryColor = "hsl(172, 59%, 57%)"          # --accent-color
+backgroundColor = "hsl(199, 35%, 9%)"        # --bg-primary
+secondaryBackgroundColor = "hsl(199, 35%, 12%)"  # --bg-secondary
+textColor = "hsl(199, 21%, 90%)"             # --text-color
+font = "Inter"
