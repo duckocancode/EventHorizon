@@ -6,7 +6,7 @@ from scanner import scan_universe
 # ────────────────────────────
 # Custom Altair Theme (Deep Cyan)
 # ────────────────────────────
-alt.theme.register('eh_dark', lambda: {
+alt.themes.register('eh_dark', lambda: {
     "config": {
         "background": "hsl(199, 35%, 9%)",
         "view": {"stroke": "transparent"},
@@ -20,8 +20,7 @@ alt.theme.register('eh_dark', lambda: {
         "title": {"color": "#ffffff"},
     }
 })
-alt.theme.enable('eh_dark')
-
+alt.themes.enable('eh_dark')
 
 # ────────────────────────────
 # Global Styling & Font
